@@ -3,34 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8200949126183D9A00383B1C /* SwiftUIMetalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8200949026183D9A00383B1C /* SwiftUIMetalApp.swift */; };
-		8200949326183D9A00383B1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8200949226183D9A00383B1C /* ContentView.swift */; };
-		8200949526183D9A00383B1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8200949426183D9A00383B1C /* Assets.xcassets */; };
-		8200949826183D9A00383B1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8200949726183D9A00383B1C /* Preview Assets.xcassets */; };
-		820094A326183DAC00383B1C /* MetalNSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820094A226183DAC00383B1C /* MetalNSView.swift */; };
-		820094A926183DCD00383B1C /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820094A826183DCD00383B1C /* Renderer.swift */; };
-		820094AE261840DE00383B1C /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 820094AD261840DE00383B1C /* Shaders.metal */; };
+		829838BF29CA945F00A61965 /* SwiftUIMetalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829838BE29CA945F00A61965 /* SwiftUIMetalApp.swift */; };
+		829838C129CA945F00A61965 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829838C029CA945F00A61965 /* ContentView.swift */; };
+		829838C329CA945F00A61965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 829838C229CA945F00A61965 /* Assets.xcassets */; };
+		829838C729CA945F00A61965 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 829838C629CA945F00A61965 /* Preview Assets.xcassets */; };
+		829838CE29CA947800A61965 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829838CD29CA947800A61965 /* MetalView.swift */; };
+		829838D029CA947F00A61965 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829838CF29CA947F00A61965 /* Renderer.swift */; };
+		829838D229CA948900A61965 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 829838D129CA948900A61965 /* Shaders.metal */; };
+		829838D529CA95D700A61965 /* MetalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829838D429CA95D700A61965 /* MetalViewModel.swift */; };
+		829838D729CA974400A61965 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829838D629CA974400A61965 /* Options.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8200948D26183D9A00383B1C /* SwiftUIMetal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMetal.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8200949026183D9A00383B1C /* SwiftUIMetalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMetalApp.swift; sourceTree = "<group>"; };
-		8200949226183D9A00383B1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8200949426183D9A00383B1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8200949726183D9A00383B1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8200949926183D9A00383B1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8200949A26183D9A00383B1C /* SwiftUIMetal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIMetal.entitlements; sourceTree = "<group>"; };
-		820094A226183DAC00383B1C /* MetalNSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalNSView.swift; sourceTree = "<group>"; };
-		820094A826183DCD00383B1C /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
-		820094AD261840DE00383B1C /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		829838BB29CA945F00A61965 /* SwiftUIMetal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMetal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		829838BE29CA945F00A61965 /* SwiftUIMetalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMetalApp.swift; sourceTree = "<group>"; };
+		829838C029CA945F00A61965 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		829838C229CA945F00A61965 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		829838C429CA945F00A61965 /* SwiftUIMetal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIMetal.entitlements; sourceTree = "<group>"; };
+		829838C629CA945F00A61965 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		829838CD29CA947800A61965 /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		829838CF29CA947F00A61965 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		829838D129CA948900A61965 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		829838D329CA949200A61965 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		829838D429CA95D700A61965 /* MetalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalViewModel.swift; sourceTree = "<group>"; };
+		829838D629CA974400A61965 /* Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8200948A26183D9A00383B1C /* Frameworks */ = {
+		829838B829CA945E00A61965 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,42 +44,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8200948426183D9A00383B1C = {
+		829838B229CA945E00A61965 = {
 			isa = PBXGroup;
 			children = (
-				8200948F26183D9A00383B1C /* SwiftUIMetal */,
-				8200948E26183D9A00383B1C /* Products */,
+				829838BD29CA945F00A61965 /* SwiftUIMetal */,
+				829838BC29CA945F00A61965 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8200948E26183D9A00383B1C /* Products */ = {
+		829838BC29CA945F00A61965 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8200948D26183D9A00383B1C /* SwiftUIMetal.app */,
+				829838BB29CA945F00A61965 /* SwiftUIMetal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8200948F26183D9A00383B1C /* SwiftUIMetal */ = {
+		829838BD29CA945F00A61965 /* SwiftUIMetal */ = {
 			isa = PBXGroup;
 			children = (
-				8200949026183D9A00383B1C /* SwiftUIMetalApp.swift */,
-				8200949226183D9A00383B1C /* ContentView.swift */,
-				820094A226183DAC00383B1C /* MetalNSView.swift */,
-				820094A826183DCD00383B1C /* Renderer.swift */,
-				820094AD261840DE00383B1C /* Shaders.metal */,
-				8200949426183D9A00383B1C /* Assets.xcassets */,
-				8200949926183D9A00383B1C /* Info.plist */,
-				8200949A26183D9A00383B1C /* SwiftUIMetal.entitlements */,
-				8200949626183D9A00383B1C /* Preview Content */,
+				829838BE29CA945F00A61965 /* SwiftUIMetalApp.swift */,
+				829838C029CA945F00A61965 /* ContentView.swift */,
+				829838CD29CA947800A61965 /* MetalView.swift */,
+				829838D429CA95D700A61965 /* MetalViewModel.swift */,
+				829838D629CA974400A61965 /* Options.swift */,
+				829838CF29CA947F00A61965 /* Renderer.swift */,
+				829838D329CA949200A61965 /* Common.h */,
+				829838D129CA948900A61965 /* Shaders.metal */,
+				829838C229CA945F00A61965 /* Assets.xcassets */,
+				829838C429CA945F00A61965 /* SwiftUIMetal.entitlements */,
+				829838C529CA945F00A61965 /* Preview Content */,
 			);
 			path = SwiftUIMetal;
 			sourceTree = "<group>";
 		};
-		8200949626183D9A00383B1C /* Preview Content */ = {
+		829838C529CA945F00A61965 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				8200949726183D9A00383B1C /* Preview Assets.xcassets */,
+				829838C629CA945F00A61965 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -83,13 +89,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8200948C26183D9A00383B1C /* SwiftUIMetal */ = {
+		829838BA29CA945E00A61965 /* SwiftUIMetal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8200949D26183D9A00383B1C /* Build configuration list for PBXNativeTarget "SwiftUIMetal" */;
+			buildConfigurationList = 829838CA29CA945F00A61965 /* Build configuration list for PBXNativeTarget "SwiftUIMetal" */;
 			buildPhases = (
-				8200948926183D9A00383B1C /* Sources */,
-				8200948A26183D9A00383B1C /* Frameworks */,
-				8200948B26183D9A00383B1C /* Resources */,
+				829838B729CA945E00A61965 /* Sources */,
+				829838B829CA945E00A61965 /* Frameworks */,
+				829838B929CA945E00A61965 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -97,77 +103,79 @@
 			);
 			name = SwiftUIMetal;
 			productName = SwiftUIMetal;
-			productReference = 8200948D26183D9A00383B1C /* SwiftUIMetal.app */;
+			productReference = 829838BB29CA945F00A61965 /* SwiftUIMetal.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8200948526183D9A00383B1C /* Project object */ = {
+		829838B329CA945E00A61965 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1420;
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					8200948C26183D9A00383B1C = {
-						CreatedOnToolsVersion = 12.4;
+					829838BA29CA945E00A61965 = {
+						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = 8200948826183D9A00383B1C /* Build configuration list for PBXProject "SwiftUIMetal" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = 829838B629CA945E00A61965 /* Build configuration list for PBXProject "SwiftUIMetal" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 8200948426183D9A00383B1C;
-			productRefGroup = 8200948E26183D9A00383B1C /* Products */;
+			mainGroup = 829838B229CA945E00A61965;
+			productRefGroup = 829838BC29CA945F00A61965 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8200948C26183D9A00383B1C /* SwiftUIMetal */,
+				829838BA29CA945E00A61965 /* SwiftUIMetal */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8200948B26183D9A00383B1C /* Resources */ = {
+		829838B929CA945E00A61965 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8200949826183D9A00383B1C /* Preview Assets.xcassets in Resources */,
-				8200949526183D9A00383B1C /* Assets.xcassets in Resources */,
+				829838C729CA945F00A61965 /* Preview Assets.xcassets in Resources */,
+				829838C329CA945F00A61965 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8200948926183D9A00383B1C /* Sources */ = {
+		829838B729CA945E00A61965 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8200949326183D9A00383B1C /* ContentView.swift in Sources */,
-				8200949126183D9A00383B1C /* SwiftUIMetalApp.swift in Sources */,
-				820094A926183DCD00383B1C /* Renderer.swift in Sources */,
-				820094A326183DAC00383B1C /* MetalNSView.swift in Sources */,
-				820094AE261840DE00383B1C /* Shaders.metal in Sources */,
+				829838D029CA947F00A61965 /* Renderer.swift in Sources */,
+				829838CE29CA947800A61965 /* MetalView.swift in Sources */,
+				829838C129CA945F00A61965 /* ContentView.swift in Sources */,
+				829838BF29CA945F00A61965 /* SwiftUIMetalApp.swift in Sources */,
+				829838D529CA95D700A61965 /* MetalViewModel.swift in Sources */,
+				829838D229CA948900A61965 /* Shaders.metal in Sources */,
+				829838D729CA974400A61965 /* Options.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8200949B26183D9A00383B1C /* Debug */ = {
+		829838C829CA945F00A61965 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -194,7 +202,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -212,24 +219,21 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		8200949C26183D9A00383B1C /* Release */ = {
+		829838C929CA945F00A61965 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -256,7 +260,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -268,85 +271,113 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
-		8200949E26183D9A00383B1C /* Debug */ = {
+		829838CB29CA945F00A61965 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SwiftUIMetal/SwiftUIMetal.entitlements;
-				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEAD_CODE_STRIPPING = YES;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIMetal/Preview Content\"";
+				DEVELOPMENT_TEAM = 3E7TCD55JT;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUIMetal/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.caroline.SwiftUIMetal;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Caroline.SwiftUIMetal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = SwiftUIMetal/Common.h;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		8200949F26183D9A00383B1C /* Release */ = {
+		829838CC29CA945F00A61965 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SwiftUIMetal/SwiftUIMetal.entitlements;
-				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEAD_CODE_STRIPPING = YES;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIMetal/Preview Content\"";
+				DEVELOPMENT_TEAM = 3E7TCD55JT;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUIMetal/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.caroline.SwiftUIMetal;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Caroline.SwiftUIMetal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = SwiftUIMetal/Common.h;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8200948826183D9A00383B1C /* Build configuration list for PBXProject "SwiftUIMetal" */ = {
+		829838B629CA945E00A61965 /* Build configuration list for PBXProject "SwiftUIMetal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8200949B26183D9A00383B1C /* Debug */,
-				8200949C26183D9A00383B1C /* Release */,
+				829838C829CA945F00A61965 /* Debug */,
+				829838C929CA945F00A61965 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8200949D26183D9A00383B1C /* Build configuration list for PBXNativeTarget "SwiftUIMetal" */ = {
+		829838CA29CA945F00A61965 /* Build configuration list for PBXNativeTarget "SwiftUIMetal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8200949E26183D9A00383B1C /* Debug */,
-				8200949F26183D9A00383B1C /* Release */,
+				829838CB29CA945F00A61965 /* Debug */,
+				829838CC29CA945F00A61965 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8200948526183D9A00383B1C /* Project object */;
+	rootObject = 829838B329CA945E00A61965 /* Project object */;
 }

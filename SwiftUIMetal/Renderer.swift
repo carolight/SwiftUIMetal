@@ -2,7 +2,7 @@
 //  Renderer.swift
 //  SwiftUIMetal
 //
-//  Created by Caroline Begbie on 3/4/21.
+//  Created by Caroline Begbie on 22/3/2023.
 //
 
 import MetalKit
@@ -14,7 +14,10 @@ class Renderer: NSObject {
   let cubeMesh: MTKMesh
   let depthStencilState: MTLDepthStencilState
 
+  var primitiveType: MTLPrimitiveType = .triangle
+
   init(metalView: MTKView) {
+    print("here")
     guard let device = MTLCreateSystemDefaultDevice() else {
       fatalError("GPU is not supported")
     }
@@ -69,6 +72,17 @@ class Renderer: NSObject {
                                          blue: 1.0, alpha: 1)
     mtkView(metalView, drawableSizeWillChange: metalView.bounds.size)
   }
+
+  func setPrimitiveType(_ primitiveType: Options) {
+    switch primitiveType {
+    case .point:
+      self.primitiveType = .point
+    case .line:
+      self.primitiveType = .line
+    case .triangle:
+      self.primitiveType = .triangle
+    }
+  }
 }
 
 extension Renderer: MTKViewDelegate {
@@ -87,11 +101,10 @@ extension Renderer: MTKViewDelegate {
     renderEncoder.setRenderPipelineState(pipelineState)
     renderEncoder.setDepthStencilState(depthStencilState)
 
-
     renderEncoder.setVertexBuffer(cubeMesh.vertexBuffers[0].buffer,
                                   offset: 0, index: 0)
     guard let submesh = cubeMesh.submeshes.first else { return }
-    renderEncoder.drawIndexedPrimitives(type: .triangle,
+    renderEncoder.drawIndexedPrimitives(type: primitiveType,
                                         indexCount: submesh.indexCount,
                                         indexType: submesh.indexType,
                                         indexBuffer: submesh.indexBuffer.buffer,
